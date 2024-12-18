@@ -52,6 +52,7 @@
     },
     "extra": {
         "branch-alias": {
+            "master": "3.0.0",
             "dev-master": "2.1.x-dev",
             "dev-pico-3.0": "3.0.x-dev"
         }
