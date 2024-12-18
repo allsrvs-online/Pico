@@ -1,5 +1,5 @@
 {
-    "name": "picocms/pico",
+    "name": "allsrvs-online/pico",
     "type": "library",
     "description": "Pico is a flat file CMS, this means there is no administration backend and database to deal with. You simply create .md files in the \"content\" folder and that becomes a page.",
     "keywords": ["pico", "picocms", "pico-cms", "simple", "flat-file", "cms", "content-management", "website", "markdown-to-html", "php", "markdown", "yaml", "twig" ],
@@ -31,12 +31,12 @@
         "source": "https://github.com/picocms/Pico"
     },
     "require": {
-        "php": ">=5.3.6",
+        "php": ">=8.2",
         "ext-mbstring": "*",
-        "twig/twig": "^1.36",
-        "symfony/yaml" : "^2.8",
-        "erusev/parsedown": "1.8.0-beta-7",
-        "erusev/parsedown-extra": "0.8.0-beta-1"
+        "twig/twig": "v3.17.1",
+        "symfony/yaml" : "^v6.4.13",
+        "erusev/parsedown": "v2.0.0-beta-1",
+        "erusev/parsedown-extra": "v2.0.0-beta-1"
     },
     "suggest": {
         "picocms/pico-theme": "Pico requires a theme to actually display the contents of your website. This is Pico's official default theme.",
